@@ -1,0 +1,107 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display';
+    background-color: hsl(225, 100%, 94%);
+}
+
+#box-mae {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#container {
+    height: 520px;
+    width: 350px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#header {
+    background-image: url(./images/illustration-hero.svg);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 20px;
+    width: 100%;
+    background-color: rgb(21, 48, 48);
+    flex: 1;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px ;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color:white;
+    flex:2;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+
+#title {
+    text-align: center;
+}
+
+#title p {
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+
+#anualPlan {
+    display: flex;
+    align-items: center;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 20px;
+    height: 80px;
+}
+
+#anualPlan div {
+    margin: 10px;
+}
+
+#change {
+    padding-left: 20px;
+    color: blue;
+    font-weight: 700;
+}
+
+#t-annual {
+    line-height: 0.5;
+
+}
+
+#t-annual p {
+    color:hsl(224, 23%, 55%) ;
+    font-weight: 600;
+}
+
+#proced button {
+    margin-top: 20px;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family:'Red Hat Display';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+#cancel {
+    color:hsl(224, 23%, 55%) ;
+    font-weight: 1000;
+}
