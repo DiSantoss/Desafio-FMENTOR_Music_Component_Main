@@ -71,10 +71,11 @@ body {
     margin: 10px;
 }
 
-#change {
+#change a {
     padding-left: 20px;
-    color: blue;
+    color: rgb(81, 81, 129);
     font-weight: 700;
+    text-decoration: none;
 }
 
 #t-annual {
@@ -90,18 +91,19 @@ body {
 #proced button {
     margin-top: 20px;
     width: 270px;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     border: none;
-    background-color: hsl(245, 75%, 52%);
+    background-color: hsl(245, 60%, 64%);
     color: white;
     font-family:'Red Hat Display';
-    font-weight: 600;
+    font-weight: 1000;
     cursor: pointer;
 }
 
 
-#cancel {
+#cancel p a{
     color:hsl(224, 23%, 55%) ;
     font-weight: 1000;
+    text-decoration: none;
 }
